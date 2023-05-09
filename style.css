@@ -1,0 +1,140 @@
+@font-face{
+	font-family: "simplymono";
+	src: url("SimplyMono-Book.ttf") format("truetype");
+}
+
+*{
+	margin: 0;
+	padding: 0;
+	font-family: "simplymono";
+	box-sizing: border-box;
+
+}
+
+body{
+	height: 100vh;
+	background-color: #3d5a80;
+	display: flex;
+	justify-content: right;
+	padding: 15px;
+	align-items: center;
+}
+
+.container{
+	width: 150vh;
+	height: 97vh;
+	border-radius: 10px;
+	display: flex;
+	flex-direction: column;
+	box-shadow: 2px 2px 20px rgba(0,0,0,0.4);
+	background-color: #293241;
+}
+
+.header h1{
+	color: #e0fbfc;
+	padding: 15px;
+}
+
+.body{
+	flex: 1;
+	color: #293241;
+	background-color: rgba(0,0,0,0.7);
+	padding: 20px 30px;
+	border-radius: 10px;
+}
+
+.message{
+	background-color: #e0fbfc;
+	padding: 10px;
+	color: #293241;
+	width: fit-content;
+	border-radius: 10px;
+	margin-bottom: 15px;
+}
+
+.user_message{
+	margin-left: auto;
+	background-color: #e0fbfc;
+	color: #293241;
+}
+
+.footer form{
+	border-radius: 10px;
+	margin: 5px;
+	display: flex;
+}
+
+form input{
+	flex: 1;
+	height: 35px;
+	border-radius: 10px;
+	border: none;
+	outline: none;
+
+	font-size: 16px;
+}
+
+form button{
+	width: 100px;
+	font-size: 18px;
+	border-radius: 10px;
+	border: none;
+	outline: none;
+	background-color: #293241;
+	color: #e0fbfc;
+	cursor: pointer;
+}
+
+form button:hover{
+	background-color: #3d5a80;
+	transition: 0.2s ease;
+}
+
+.space{
+	width: 2vh;
+}
+
+.contacts{
+	width: 50vh;
+	height: 97vh;
+	border-radius: 10px;
+	display: flex;
+	flex-direction: column;
+	box-shadow: 2px 2px 20px rgba(0,0,0,0.4);
+	background-color: #293241;
+}
+
+.conheader h1{
+	color: #e0fbfc;
+	border-radius: 10px;
+	padding: 15px;
+}
+
+.conbody{
+	flex: 1;
+	color: #293241;
+	background-color: rgba(0,0,0,0.7);
+	border-radius: 10px;
+	padding: 20px 30px;
+}
+
+.group{
+	padding: 10px;
+	color: #98c1d9;
+	width: fit-content;
+	border-radius: 10px;
+	margin-bottom: 15px;
+}
+
+.mom{
+	padding: 10px;
+	color: #98c1d9;
+	width: fit-content;
+	border-radius: 10px;
+	margin-bottom: 15px;
+}
+
+
+
+
+
